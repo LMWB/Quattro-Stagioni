@@ -11,7 +11,7 @@ RTD stands for Resistance Temperature Detector. Most common used version is PT10
 RTD Messverfahren werden von IC implementiert wie z.B. der ADS124 von TI. Mit ca. 15€ sind diese jedoch sehr preisintensiv. 
 Diese Sensoren werden typischerweise mit einem konstanten Strom um die 1mA bestromt und der resultierende Spannungsfall wird gemessen.
 Die spezifische Kennklienie gibt Aufschluss über die vorherrschende Temperatur.
-Dieses einfache Messverfahren hat den Nachteil, dass im interesanten Wertebereich von 0 bis 100 •C nur ein sehr geringer Spannungshub von nur xxx V.
+Dieses einfache Messverfahren hat den Nachteil, dass im interesanten Wertebereich von 0 bis 100 •C nur ein sehr geringer Spannungshub von nur xxx V entsteht.
 Das erfordert einen sehr hochauflösenden ADC (16bit oder mehr) um ausreichend Genauigkeit z erzielen.
 Desweiteren wird die Referenzspannung des ADC nur in einem sehr kleinen Arbeitsbereich verwendet.
 Abhilfe schafft eine einfache Verstärkerschaltung mit einem unioolarem OP.
