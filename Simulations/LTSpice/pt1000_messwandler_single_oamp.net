@@ -1,0 +1,32 @@
+* Z:\home\lukas\work\LTSpice\pt1000_messwandler_single_oamp.asc
+V1 Vcc 0 12
+V2 0 Vee 2
+RPT V1 V2 {PT}
+XU2 X1 X3 Vcc Vee Diff_Out1 LT1001
+R3 Diff_Out1 X3 22.7k
+R_PT_L2 X1 V1 0.5
+R_PT_L1 V2 0 0.5
+RL Vref X1 10k
+R1 Vref X3 10k
+R2 X3 0 1046
+V3 Vref 0 5
+XU1 X11 X13 Vcc Vee Diff_Out2 LT1001
+R4 Diff_Out2 X13 9k4
+RL1 Vref X11 4k7
+R7 Vref X13 4k7
+R8 X13 0 1k
+RPT1 N006 N005 {PT}
+R_PT_L3 X11 N006 0.5
+R_PT_L4 N005 0 0.5
+* 4 Leiter Model PT1000 Sensor\nR_PT_Ln = R-Zuleitungen
+* 1500 Ohm = 125 GradC\n  750 Ohm = -50 GradC
+.step param PT list 1000 1003.9 1007.8 1011.7 1015.6 1019.5 1023.4 1027.3 1031.2 1035.1 1039.0 1042.9 1046.8 1050.7 1054.6 1058.5 1062.4 1066.3 1070.2 1074.0 1077.9 1081.8 1085.7 1089.6 1093.5 1097.3 1101.2 1105.1 1109.0 1112.9 1116.7 1120.6 1124.5 1128.3 1132.2 1136.1 1140.0 1143.8 1147.7 1151.5 1155.4 1159.3 1163.1 1167.0 1170.8 1174.7 1178.6 1182.4 1186.3 1190.1 1194.0 1197.8 1201.7 1205.5 1209.4 1213.2 1217.1 1220.9 1224.7 1228.6 1232.4 1236.3 1240.1 1243.9 1247.8 1251.6 1255.4 1259.3 1263.1 1266.9 1270.8 1274.6 1278.4 1282.2 1286.1 1289.9 1293.7 1297.5 1301.3 1305.2
+.op
+* Auslegung f. \nVerstaerkung = 25\nPt1000\n0V Output bei 0 Grad\n3V Output bei 70 Grad\nUref = 5V\nOP mono supply
+* Berechnung
+* E12-Reihe
+* 4 Leiter Model PT1000 Sensor\nR_PT_Ln = R-Zuleitungen
+* 1500 Ohm = 125 GradC\n  750 Ohm = -50 GradC
+.lib LTC.lib
+.backanno
+.end
