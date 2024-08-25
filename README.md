@@ -17,5 +17,7 @@ Desweiteren wird die Referenzspannung des ADC nur in einem sehr kleinen Arbeitsb
 Abhilfe schafft eine einfache Verstärkerschaltung mit einem unioolarem OP.
 Dieses hier vorgestellte analoge Eingangsstufe kann auch für andere physikalische Größen verwendet werden wie z.B. Ladekennlinie moderne Akkus.
 
+!()[/Images/Kicad-RTC-Messbruecke.png)
+!()[/Images/Ltsoice.png]
 # Sorces
 - Wolf-Dieter Schmidt, Sensorschaltungstechnik, Elektronik 8, Vogel Fachbuch, Linearisierung von Silizium-Widerstandssensoren, S. 71
