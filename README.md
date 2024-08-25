@@ -18,4 +18,4 @@ Abhilfe schafft eine einfache Verstärkerschaltung mit einem unioolarem OP.
 Dieses hier vorgestellte analoge Eingangsstufe kann auch für andere physikalische Größen verwendet werden wie z.B. Ladekennlinie moderne Akkus.
 
 # Sorces
-- Wolf-Dieter Schmidt, Linearisierung von Silizium-Widerstandssensoren, S. 71
+- Wolf-Dieter Schmidt, Sensorschaltungstechnik, Elektronik 8, Vogel Fachbuch, Linearisierung von Silizium-Widerstandssensoren, S. 71
