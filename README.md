@@ -18,6 +18,7 @@ Abhilfe schafft eine einfache Verstärkerschaltung mit einem unioolarem OP.
 Dieses hier vorgestellte analoge Eingangsstufe kann auch für andere physikalische Größen verwendet werden wie z.B. Ladekennlinie moderne Akkus.
 
 ![Arduino compatible breakout](/Images/Kicad-RTC-Messbruecke.png)
-![](/Images/Ltsoice.png)
+![LTSpice Simulation Messbruecke](/Images/LTSpice-RTC-Messbruecke-Simulation.png)
+
 # Sorces
 - Wolf-Dieter Schmidt, Sensorschaltungstechnik, Elektronik 8, Vogel Fachbuch, Linearisierung von Silizium-Widerstandssensoren, S. 71
