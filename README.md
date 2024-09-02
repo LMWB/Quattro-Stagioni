@@ -28,7 +28,7 @@ Die oben beschriebene Schaltung wurde im Formfaktor eines vereinfachten Arduino-
 [Microcontroller based C-Code](/Software/)  
 [Results and Discussion](/Testing/)  
 
-# Dodo
+# Todo
 - translate to english
 - solder PCB
 - testing
