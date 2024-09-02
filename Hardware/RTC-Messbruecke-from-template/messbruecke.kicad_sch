@@ -5,9 +5,11 @@
 	(uuid "51f68c7b-1cc9-4df8-bf78-9d5f21760853")
 	(paper "A4")
 	(title_block
-		(title "Template Arduino Shield Simple Outline")
-		(date "2024-08-05")
+		(title "4-Fach Messbruecke PT1000")
+		(date "2024-09-02")
 		(rev "v.0.2")
+		(company "LMWB")
+		(comment 1 "Lukas Bartels 2024")
 	)
 	(lib_symbols
 		(symbol "Device:R"

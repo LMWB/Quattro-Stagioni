@@ -5,9 +5,11 @@
 	(uuid "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55")
 	(paper "A4")
 	(title_block
-		(title "Template Arduino Shield Simple Outline")
-		(date "2024-08-05")
+		(title "4-Fach Messbruecke PT1000")
+		(date "2024-09-02")
 		(rev "v.0.2")
+		(company "LMWB")
+		(comment 1 "Lukas Bartels 2024")
 	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x04"
@@ -4004,17 +4006,6 @@
 			(justify left)
 		)
 		(uuid "ae71b762-74f0-4862-b2c4-0e99ac172916")
-	)
-	(text "* Indicates a PWM-capable pin"
-		(exclude_from_sim no)
-		(at 177.8 180.34 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c364973a-9a67-4667-8185-a3a5c6c6cbdf")
 	)
 	(text "debug probe for multimeter"
 		(exclude_from_sim no)

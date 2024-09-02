@@ -9,7 +9,7 @@ RDT-Sensoren werden typischerweise mit einem konstanten Strom um die 1mA beaufsc
 Die spezifische Kennklienie gibt Aufschluss über die vorherrschende Temperatur.
 Dieses einfache Messverfahren hat den Nachteil, dass im interesanten Wertebereich von ca. 0 bis 70 •C nur ein sehr geringer Spannungshub von ca. 250 mV entsteht (abhaengig vom gewaehlten erregerstrom, je kleiner um so besser um die Eigenerwaermung im Sensor zu vermeiden). Die Kurve R = f(T) ist also sehr flach. 
 ![RTC Function](/Images/PT1000-1.png)
-Das erfordert einen sehr hochauflösenden ADC (16bit oder mehr) um einen entsprechenden Ausschlag zu messen.
+Es erfordert einen sehr hochauflösenden ADC (16bit oder mehr) um einen entsprechenden Ausschlag zu messen.
 Ein weitere Nachteil ist, dass die Referenzspannung des ADC nur in einem sehr kleinen Arbeitsbereich verwendet wird.
 ![Messverstaerker](/Images/OPMessbruecke.png)
 Abhilfe schafft eine einfache Verstärkerschaltung mit einem unipolarem Operationsverstaerker.
@@ -28,19 +28,17 @@ Die oben beschriebene Schaltung wurde im Formfaktor eines vereinfachten Arduino-
 [Microcontroller based C-Code](/Software/)  
 [Results and Discussion](/Testing/)  
 
-# todo
+# Dodo
 - translate to english
 - solder PCB
 - testing
 - reference measurement
 - add CAN or Modbus to PCB
 
-## Some Web Links
-[Widerstandsthermometer / Pt100 Fühler](https://www.tcgmbh.de/widerstandsthermometer/pt100-fuehler.html?gad_source=1&gclid=EAIaIQobChMIzJ2AwLC6hwMVt5hQBh2AcgBmEAAYAiAAEgKx2PD_BwE)
-
-[Wissenswertes über RTDs](https://www.te.com/de/products/sensors/temperature-sensors/resources/understanding-rtds.html)
-
-[ADS124 at mouser.com](https://www.mouser.de/ProductDetail/Texas-Instruments/ADS124S08IPBSR?qs=Bho%2FbeBaDEw8zBU%2F9K2heg%3D%3D)
+# Some Web Links
+[Widerstandsthermometer / Pt100 Fühler](https://www.tcgmbh.de/widerstandsthermometer/pt100-fuehler.html?gad_source=1&gclid=EAIaIQobChMIzJ2AwLC6hwMVt5hQBh2AcgBmEAAYAiAAEgKx2PD_BwE)  
+[Wissenswertes über RTDs](https://www.te.com/de/products/sensors/temperature-sensors/resources/understanding-rtds.html)  
+[ADS124 at mouser.com](https://www.mouser.de/ProductDetail/Texas-Instruments/ADS124S08IPBSR?qs=Bho%2FbeBaDEw8zBU%2F9K2heg%3D%3D)  
 
 # Sorces
-- Wolf-Dieter Schmidt, Sensorschaltungstechnik, Elektronik 8, Vogel Fachbuch, Linearisierung von Silizium-Widerstandssensoren, S. 71
+Wolf-Dieter Schmidt, Sensorschaltungstechnik, Elektronik 8, Vogel Fachbuch, Linearisierung von Silizium-Widerstandssensoren, S. 71
