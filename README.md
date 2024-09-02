@@ -19,7 +19,7 @@ Dieses hier vorgestellte analoge Eingangsstufe kann auch für andere physikalisc
 - blue without gain amplifier
 - green with gain amplifier
 
-Die oben beschriebene Schaltung wurde im Formfaktor eines vereinfachten Arduino-Shield realisiert. Die Platinein implementier 4-Kanal Messkanale da ein 4-fach OP verwendet wurde.
+Die oben beschriebene Schaltung wurde im Formfaktor eines vereinfachten Arduino-Shield realisiert. Die Platine implementier 4 Messkanaele da ein 4-fach OP verwendet wurde.
 ![Arduino compatible breakout](/Images/Kicad-RTC-Messbruecke.png)
 
 # Documentation
