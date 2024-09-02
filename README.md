@@ -20,5 +20,8 @@ Dieses hier vorgestellte analoge Eingangsstufe kann auch für andere physikalisc
 ![Arduino compatible breakout](/Images/Kicad-RTC-Messbruecke.png)
 ![LTSpice Simulation Messbruecke](/Images/LTSpice-RTC-Messbruecke-Simulation.png)
 
+- blue without gain amplifier
+- green with gain amplifier
+
 # Sorces
 - Wolf-Dieter Schmidt, Sensorschaltungstechnik, Elektronik 8, Vogel Fachbuch, Linearisierung von Silizium-Widerstandssensoren, S. 71
