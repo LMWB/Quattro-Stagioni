@@ -65,7 +65,7 @@ title(['Resistor Values for PTxxx Temperature Sensors'])
 xlabel('T / °C')
 ylabel('R / Ohm')
 l1 = sprintf('PT100: %d°C < T < %d°C', min(t1), max(t2));
-l2 = sprintf('PT50000: %d°C < T < %d°C', min(t1), max(t2));
+l2 = sprintf('PT500: %d°C < T < %d°C', min(t1), max(t2));
 l3 = sprintf('PT1000: %d°C < T < %d°C', min(t1), max(t2));
 legend( l1,l2,l3,'linear Model', 'Location', 'NorthWest')
 

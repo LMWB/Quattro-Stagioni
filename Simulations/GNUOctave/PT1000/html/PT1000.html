@@ -142,7 +142,7 @@ title([<span class="string">'Resistor Values for PTxxx Temperature Sensors'</spa
 xlabel(<span class="string">'T / °C'</span>)
 ylabel(<span class="string">'R / Ohm'</span>)
 l1 = sprintf(<span class="string">'PT100: %d°C &lt; T &lt; %d°C'</span>, min(t1), max(t2));
-l2 = sprintf(<span class="string">'PT50000: %d°C &lt; T &lt; %d°C'</span>, min(t1), max(t2));
+l2 = sprintf(<span class="string">'PT500: %d°C &lt; T &lt; %d°C'</span>, min(t1), max(t2));
 l3 = sprintf(<span class="string">'PT1000: %d°C &lt; T &lt; %d°C'</span>, min(t1), max(t2));
 legend( l1,l2,l3,<span class="string">'linear Model'</span>, <span class="string">'Location'</span>, <span class="string">'NorthWest'</span>)</pre>
 <img src="PT1000-1.png" alt="PT1000-1.png"><h2><a id="node4">Fehlerbetrachtung des liniearen PT1000 Models</a></h2>
@@ -327,7 +327,7 @@ title(['Resistor Values for PTxxx Temperature Sensors'])
 xlabel('T / °C')
 ylabel('R / Ohm')
 l1 = sprintf('PT100: %d°C < T < %d°C', min(t1), max(t2));
-l2 = sprintf('PT50000: %d°C < T < %d°C', min(t1), max(t2));
+l2 = sprintf('PT500: %d°C < T < %d°C', min(t1), max(t2));
 l3 = sprintf('PT1000: %d°C < T < %d°C', min(t1), max(t2));
 legend( l1,l2,l3,'linear Model', 'Location', 'NorthWest')
 
