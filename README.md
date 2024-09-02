@@ -1,8 +1,8 @@
 # Quattro-Stagioni
 RTD-Sensor Breakoutboard and C-Library
 
-###
-RTD stands for Resistance Temperature Detector. Most common used version is PT100, PT1000, KTY.
+# Abstract
+RTD stands for Resistance Temperature Detector. Most common used version is PT100, PT1000 and KTY.
 
 RTD Messverfahren werden von IC's implementiert wie z.B. der ADS124 von TI. Mit ca. 10€ sind diese jedoch verhaeltnismaessig preisintensiv.
 RDT-Sensoren werden typischerweise mit einem konstanten Strom um die 1mA beaufschlagt und der daraus resultierende Spannungsfall wird gemessen.
@@ -20,8 +20,17 @@ Dieses hier vorgestellte analoge Eingangsstufe kann auch für andere physikalisc
 - blue without gain amplifier
 - green with gain amplifier
 
+# Documentation
+[PCB Design and Gerber Files](/Hardware/)
+[Simulations and Models](/Simulations/)
+[Microcontroller based C-Code](/Software/)
+[Results and Discussion](/Testing/)
+
 # todo
 - translate to english
+- solder PCB
+- testing
+- reference measurement
 
 ## Some Web Links
 [Widerstandsthermometer / Pt100 Fühler](https://www.tcgmbh.de/widerstandsthermometer/pt100-fuehler.html?gad_source=1&gclid=EAIaIQobChMIzJ2AwLC6hwMVt5hQBh2AcgBmEAAYAiAAEgKx2PD_BwE)
