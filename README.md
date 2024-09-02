@@ -11,14 +11,16 @@ Dieses einfache Messverfahren hat den Nachteil, dass im interesanten Wertebereic
 ![RTC Function](/Images/PT1000-1.png)
 Das erfordert einen sehr hochauflösenden ADC (16bit oder mehr) um einen entsprechenden Ausschlag zu messen.
 Ein weitere Nachteil ist, dass die Referenzspannung des ADC nur in einem sehr kleinen Arbeitsbereich verwendet wird.
+![Messverstaerker](/Images/OPMessbruecke.png)
 Abhilfe schafft eine einfache Verstärkerschaltung mit einem unipolarem Operationsverstaerker.
 Dieses hier vorgestellte analoge Eingangsstufe kann auch für andere physikalische Größen verwendet werden wie z.B. Ladekennlinie moderne Akkus welche von Natur aus sehr flach sind.
 
-![Arduino compatible breakout](/Images/Kicad-RTC-Messbruecke.png)
 ![LTSpice Simulation Messbruecke](/Images/LTSpice-RTC-Messbruecke-Simulation.png)
-
 - blue without gain amplifier
 - green with gain amplifier
+
+Die oben beschriebene Schaltung wurde im Formfaktor eines vereinfachten Arduino-Shield realisiert. Die Platinein implementier 4-Kanal Messkanale da ein 4-fach OP verwendet wurde.
+![Arduino compatible breakout](/Images/Kicad-RTC-Messbruecke.png)
 
 # Documentation
 [PCB Design and Gerber Files](/Hardware/)  
@@ -31,6 +33,7 @@ Dieses hier vorgestellte analoge Eingangsstufe kann auch für andere physikalisc
 - solder PCB
 - testing
 - reference measurement
+- add CAN or Modbus to PCB
 
 ## Some Web Links
 [Widerstandsthermometer / Pt100 Fühler](https://www.tcgmbh.de/widerstandsthermometer/pt100-fuehler.html?gad_source=1&gclid=EAIaIQobChMIzJ2AwLC6hwMVt5hQBh2AcgBmEAAYAiAAEgKx2PD_BwE)
