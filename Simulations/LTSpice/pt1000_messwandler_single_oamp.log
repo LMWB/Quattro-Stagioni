@@ -1,6 +1,6 @@
 LTspice 24.0.9 for Windows
 Circuit: * Z:\home\lukas\work\git\LMWB\Quattro-Stagioni\Simulations\LTSpice\pt1000_messwandler_single_oamp.asc
-Start Time: Mon Sep  2 19:57:21 2024
+Start Time: Sun Sep  8 11:09:06 2024
 solver = Normal
 Maximum thread count: 4
 
@@ -9,19 +9,19 @@ Maximum thread count: 4
 Direct Newton iteration for .op point succeeded.
 Semiconductor Device Operating Points:
                         --- Diodes ---
-Name:    d:u2:1      d:u2:4      d:u1:1      d:u1:4
-Model:    u2:x        u2:di       u1:x        u1:di
-Id:      6.52e-16    6.65e-15   -1.49e-17    6.04e-15
-Vd:      6.52e-04    6.65e-06   -1.49e-05    6.04e-06
-Req:     1.00e-12    1.00e-09    1.00e-12    1.00e-09
-CAP:     0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Name:    d:u2:1      d:u2:4      d:u1:1      d:u1:4        d1
+Model:    u2:x        u2:di       u1:x        u1:di      umz5_1n
+Id:      3.68e-13    3.15e-15    9.34e-16    2.17e-15   -8.61e-11
+Vd:      3.68e-01    3.15e-06    9.33e-04    2.17e-06   -3.70e-01
+Req:     1.00e-12    1.00e-09    1.00e-12    1.00e-09    2.73e+10
+CAP:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    2.83e-11
 
                         --- VDMOSFET Transistors ---
 Name:        m:u2:1      m:u2:2      m:u1:1      m:u1:2
 Model:        u2:n        u2:p        u1:n        u1:p
 Id:          2.24e-03   -2.26e-03    2.25e-03   -2.25e-03
-Vgs:        -6.52e-04   -6.52e-04    1.54e-05    1.54e-05
-Vds:         1.20e+01   -2.01e+00    1.15e+01   -2.47e+00
+Vgs:        -6.13e-04   -6.13e-04    1.21e-05    1.21e-05
+Vds:         4.99e+00   -1.01e+00    4.63e+00   -1.37e+00
 Vth:        -3.00e-01    3.00e-01   -3.00e-01    3.00e-01
 Gm:          1.50e-02    1.50e-02    1.50e-02    1.50e-02
 Gds:         0.00e+00    0.00e+00    0.00e+00    0.00e+00
@@ -267,5 +267,5 @@ Cbody:       0.00e+00    0.00e+00    0.00e+00    0.00e+00
 tnom = 27
 temp = 27
 method = modified trap
-Total elapsed time: 2.577 seconds.
+Total elapsed time: 2.590 seconds.
 

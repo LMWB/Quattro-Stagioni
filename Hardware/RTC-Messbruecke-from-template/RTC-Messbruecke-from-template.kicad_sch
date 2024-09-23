@@ -3996,9 +3996,9 @@
 		)
 		(uuid "ac69200f-5e47-40b8-9ac0-ea4497b23016")
 	)
-	(text "todo\n- double check via dimensions!\n- add Modbus / CAN Tranceiver\n- mosfet instead of diode vor V-supply"
+	(text "todo\n- double check via dimensions!\n- add Modbus / CAN Tranceiver\n- mosfet instead of diode vor V-supply\n- add 5v zener diode at OP output to protect adc-input"
 		(exclude_from_sim no)
-		(at 132.588 35.052 0)
+		(at 124.968 54.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
