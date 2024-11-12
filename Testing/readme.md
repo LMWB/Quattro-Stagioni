@@ -33,11 +33,18 @@ At least I could verify that both type of sensors a quick in response :).
 ## Error
 ![](../Images/results-error.png)
 
-- error below zero is insane, but not relevant (see discussion above)
+- error below zero degrees (from 0h to around 11h in time domain) is insane, but not relevant (see discussion above)
 - from 10 degrees and up its very acceptable for such a primitive schematics
 - the PCB fabricated so far does not have a voltage reference of 5V instead using the Nucleo onboard LDO which does not provide a stable 5V
 - instead its around 4,75V
 - fixing this issue will increase performance and systematic error
+
+generel formular to relative error calculation
+
+```math
+err = \frac{abs(x_{true}-x)}{x}
+```
+
 
 ## Conclusions
 - performance is good and as aspected from simulations
