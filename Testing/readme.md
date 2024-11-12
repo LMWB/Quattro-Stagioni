@@ -42,7 +42,7 @@ At least I could verify that both type of sensors a quick in response :).
 Perhaps the reade noticed the asymptote at x=8.7h. General formula to relative error calculation
 
 ```math
-err = \frac{\abs{y_{true}-y}}{y}
+err = \frac{|y_{true}-y|}{y}
 ```
 But what if y is zero? I mean 0 as a true value.
 In my case zero degrees, which is a correct measurement.
@@ -50,7 +50,7 @@ The error goes wild since its been divided by zero.
 Does anybody know how to tread this situation in terms of correct subject to math / physics?
 
 ## Conclusions
-- performance is good and as aspected from simulations
+- performance is good and as aspect from simulations
 - BOM has less, uncomplicated and cheap components
 - add some sort of digital low pass filter in C-code
 - add reference voltage and do measurements again
