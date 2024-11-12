@@ -39,12 +39,15 @@ At least I could verify that both type of sensors a quick in response :).
 - instead its around 4,75V
 - fixing this issue will increase performance and systematic error
 
-generel formular to relative error calculation
+Perhaps the reade noticed the asymptote at x=8.7h. General formula to relative error calculation
 
 ```math
-err = \frac{abs(x_{true}-x)}{x}
+err = \frac{\abs(y_{true}-y)}{y}
 ```
-
+But what if y is zero? I mean 0 as a true value.
+In my case zero degrees, which is a correct measurement.
+The error goes wild since its been divided by zero. 
+Does anybody know how to tread this situation in terms of correct subject to math / physics?
 
 ## Conclusions
 - performance is good and as aspected from simulations
