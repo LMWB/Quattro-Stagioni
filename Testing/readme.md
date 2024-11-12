@@ -32,6 +32,7 @@ At least I could verify that both type of sensors a quick in response :).
 
 ## Error
 ![](../Images/results-error.png)
+![](../Images/results-error-zoom.png)
 
 - error below zero degrees (from 0h to around 11h in time domain) is insane, but not relevant (see discussion above)
 - from 10 degrees and up its very acceptable for such a primitive schematics
