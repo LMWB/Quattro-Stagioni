@@ -42,7 +42,7 @@ At least I could verify that both type of sensors a quick in response :).
 Perhaps the reade noticed the asymptote at x=8.7h. General formula to relative error calculation
 
 ```math
-err = \frac{\abs(y_{true}-y)}{y}
+err = \frac{\abs{y_{true}-y}}{y}
 ```
 But what if y is zero? I mean 0 as a true value.
 In my case zero degrees, which is a correct measurement.
