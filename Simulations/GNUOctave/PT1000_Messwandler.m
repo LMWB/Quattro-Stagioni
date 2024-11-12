@@ -1,9 +1,9 @@
 R1 = 10000;
 RL = R1;
 
-RTU = 1000; # PT100 @ 0Grad
-RTM = 1136; # PT100 @ 35Grad
-RTO = 1270; # PT100 @ 70Grad
+RTU = 1000; # PT1000 @ 0Grad
+RTM = 1136; # PT1000 @ 35Grad
+RTO = 1270; # PT1000 @ 70Grad
 
 V = 25; # select Gain of OP Messbruecker
 

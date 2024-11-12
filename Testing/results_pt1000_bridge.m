@@ -1,6 +1,6 @@
 clc;clear;close;
-filename1 = "pt1000-log.csv"
-filename2 = "ds18b20-log.csv"
+filename1 = "pt1000-log.csv";
+filename2 = "ds18b20-log.csv";
 data1 = dlmread (filename1, ',');
 data2 = dlmread (filename2, ',');
 
@@ -47,9 +47,10 @@ legend('PT1000',  'DS18B20', 'Location', 'NorthWest')
 
 %%
 % Error, cold-series has less data point, so its need to take its len as reference to do calculations
-len = length(temperature_pt1000_cold_lp)
-err_pt1000_cold = abs(temperature_pt1000_cold_lp([N:end]) - temperature_ds18b20_cold([N:len])) ./ temperature_ds18b20_cold([N:len]);
-err_pt1000_warm = abs(temperature_pt1000_warm_lp([N:end]) - temperature_ds18b20_warm([N:len])) ./ temperature_ds18b20_warm([N:len]);
+% relativer fehler: abs(xtrue-x)/x (differenz wahrer wert zu gemessenen wert bezogen auf den gemessenen wert)
+len = length(temperature_pt1000_cold_lp);
+err_pt1000_cold = abs(temperature_pt1000_cold_lp([N:end]) - temperature_ds18b20_cold([N:len])) ./ temperature_pt1000_cold_lp([N:len]);
+err_pt1000_warm = abs(temperature_pt1000_warm_lp([N:end]) - temperature_ds18b20_warm([N:len])) ./ temperature_pt1000_warm_lp([N:len]);
 
 figure()
 hold on
