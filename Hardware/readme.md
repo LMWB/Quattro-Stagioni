@@ -20,5 +20,5 @@ In comparison to a quite popular approach using the ADS124S integrated RCD Measu
 | Decoupling Capacity              |                |            |  |
 | Resistor 1%                      |               |         |  |
 
-In Total: 5.36 Euro
+In Total: 5.36 Euro  
 With LM324 sampling is much faster since its four channels in parallel where as the ADS124 has to multiplex, but with the ADS124 approach data is already in digital format.  
