@@ -7,6 +7,10 @@ So I use the results of the DS18B20 to estimate how good my measurement bridge i
 
 I than use a rubber band to attache one DS18B20 to one PT1000 sensor. I did this twice. On pair is going to do a *hot to room temperature test*. The other pair is doing a *cold to room temperature test*. I use a metal small pitcher filled with hot water from the kettle. And I use thermal pack from the freezer. Both gets equipped with one pair of temperature sensors.
 
+![](../Images/cold_water_experiement.jpg)
+![](../Images/hot_water_experiement.jpg)
+![](../Images/sensors_coupled.jpg)
+
 ## Execution
 To start the testing scene I only had to plug in the two Nucleo boards to my computer and start a serial terminal to log the outputs to console.
 I used CuteCom. The firmware of each Nucleo board prints the temperature conversion results to serial monitor with 5000ms period (f=0.2Hz).
