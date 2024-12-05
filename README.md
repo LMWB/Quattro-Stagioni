@@ -26,7 +26,7 @@ Die oben beschriebene Schaltung wurde im Formfaktor eines vereinfachten Arduino-
 [PCB Design and Gerber Files](/Hardware/)  
 [Simulations and Models](/Simulations/)  
 [Microcontroller based C-Code](/Software/)  
-[BOM and costs](/Hardware/)
+[BOM and costs](/Hardware/)  
 [Results and Discussion](/Testing/)  
 
 # Todo
