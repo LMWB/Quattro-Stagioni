@@ -12,13 +12,13 @@ Estimation of costs for RDC Sensor Board with four channels. Prizing from mouser
 
 In Total: 3.7 Euro where the reference voltage is the most expensive part. 
 
-In comparison to a quite popular approach using the ADS124S integrated RCD Measurement IC from Texas Instruments. 
+In comparison to a quite popular approach using the ADS124S08 integrated RCD Measurement ADC from Texas Instruments. 
 
 | Part                             | Quantities      | Cost per unit (Euro) | Cost total |
 | -------------------------------- | -----------     | -----------          | ---------- |
-| ADS124s 24-Bit ADC    | 1               | 5,36                 |   |
-| Decoupling Capacity              |                |            |  |
-| Resistor 1%                      |               |         |  |
+| ADS124s 24-Bit ADC               | 1               | 6,55                 |            |
+| Decoupling Capacity              |                 |                      |            |
+| Resistor 1%                      |                 |                      |            |
 
-In Total: 5.36 Euro  
+In Total: 6,55 Euro  
 With LM324 sampling is much faster since its four channels in parallel where as the ADS124 has to multiplex, but with the ADS124 approach data is already in digital format.  
